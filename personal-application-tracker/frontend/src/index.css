@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-image: url("/assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#auth-button {
+    background-image: linear-gradient(to right, #3428c5, #005fe2, #0084e8, #00a4e2, #43c0da); /* Angled for better flow */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3); /* Subtle blue glow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth interactions */
+}
+
+#auth-button:hover {
+    transform: translateY(-2px); /* Lifts on hover */
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+}
