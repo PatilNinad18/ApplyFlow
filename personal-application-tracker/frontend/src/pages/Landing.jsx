@@ -39,9 +39,9 @@ const Landing = () => {
         </div>
 
         <div className="flex justify-center items-center gap-20">
-          <Card title={"Unified DashBoard"} icon={"/assets/dashboard.svg"} />
-          <Card title={"Deadline Reminders"} icon={"/assets/trophy.svg"} />
-          <Card title={"Resume Builder"} icon={"/assets/handshake.svg"} />
+          <Card title={"Unified DashBoard"} icon={"/assets/dashboard.svg"} info={"Track all your applications, interview statuses, and offer letters in one centralized, real-time view."} />
+          <Card title={"Deadline Reminders"} icon={"/assets/trophy.svg"} info={"Never miss an opportunity. Get automated alerts for application closings and upcoming technical rounds."} />
+          <Card title={"Resume Builder"} icon={"/assets/handshake.svg"} info={"Generate ATS-friendly resumes instantly with custom templates designed to land you more interviews."} />
         </div>
 
         <footer className="flex justify-between m-20 text-white font-semibold">

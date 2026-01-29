@@ -11,6 +11,7 @@ import Dashboard from "../../pages/Dashboard";
 import Applications from "../../pages/Applications/Application";
 import AddApplications from "../../pages/AddApplications";
 import Profile from "../../pages/Profile";
+import Settings from "../../pages/Settings";
 
 export default function AppRoutes() {
   return (
@@ -26,6 +27,7 @@ export default function AppRoutes() {
         <Route path="/applications" element={<Applications />} />
         <Route path="/applications/new" element={<AddApplications />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="settings" element={<Settings/>} />
       </Route>
     </Routes>
   );
