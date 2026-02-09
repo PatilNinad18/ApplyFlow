@@ -1,4 +1,4 @@
-"# ApplyFlow
+# ApplyFlow
 
 A comprehensive full-stack application for tracking and managing job applications. Monitor your applications, interview progress, and statistics in one place with an intuitive dashboard and detailed analytics.
 
