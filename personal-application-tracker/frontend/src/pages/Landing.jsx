@@ -1,6 +1,16 @@
 import Card from "../components/ui/Card";
-
+import { useNavigate } from "react-router-dom";
 const Landing = () => {
+  const navigate = useNavigate();
+
+  const handleLogin = () =>{
+    navigate("/login")
+  }
+
+  const handleRegister = () => {
+    navigate("/register")
+  }
+
   return (
     <div>
         <nav className="flex justify-between items-center">
@@ -15,7 +25,10 @@ const Landing = () => {
 
         <div className="flex items-center gap-10 mr-25">
           <h3>Features</h3>
-          <button id="auth-button">Sign Up</button>
+          <button
+           id="auth-button"
+           onClick={handleRegister}
+           >Sign Up</button>
         </div>
         </nav>
 
@@ -33,8 +46,10 @@ const Landing = () => {
           <button 
             id="auth-button" 
             className="absolute top-90 left-40 -translate-y-1/2 rounded-full px-6 py-3 bg-indigo-600 text-white font-semibold shadow-lg hover:bg-indigo-700 transition-all"
+            onClick={handleLogin}
           >
             Get Started - It's Free
+            
           </button>
         </div>
 

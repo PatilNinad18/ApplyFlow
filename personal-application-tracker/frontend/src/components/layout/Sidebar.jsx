@@ -37,7 +37,7 @@ const Sidebar = () => {
 
       </div>
 
-      {/* Logout Button (Bottom) */}
+      {/* Logout Button (Bottom)
       <div className="mt-auto px-1 py-3">
         <button
           className="
@@ -53,8 +53,8 @@ const Sidebar = () => {
           "
         >
           Log Out
-        </button>
-      </div>
+        </button> */}
+      {/* </div> */}
 
     </aside>
   );

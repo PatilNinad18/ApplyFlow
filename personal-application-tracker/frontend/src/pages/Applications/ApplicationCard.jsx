@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
-const ApplicationCard = () => {
-  return (
-    <div>ApplicationCard</div>
-  )
-}
+// const ApplicationCard = () => {
+//   return (
+//     <div>ApplicationCard</div>
+//   )
+// }
 
-export default ApplicationCard
+// export default ApplicationCard
